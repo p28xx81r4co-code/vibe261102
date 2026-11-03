@@ -6,6 +6,12 @@
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "8765", "--directory", "todolist"],
       "port": 8765
+    },
+    {
+      "name": "demoweb",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "DemoWeb", "run", "dev"],
+      "port": 3000
     }
   ]
 }
